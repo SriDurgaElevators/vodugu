@@ -351,14 +351,15 @@ button {
   align-items: center;
   justify-items: center;
 }
-
-.section_timer {
+.section-timer {
   box-sizing: border-box;
-  background-color: #777;
+  background-image: url('https://t3.ftcdn.net/jpg/09/82/84/66/360_F_982846663_mU311Y83edrTRlQ5qctEKEoelQXnCfUu.jpg');
   background-position: center;
-  background-size: cover;
-  height: 30vh;
-  font-family: "Poppins" , sans-serif;
+  background-size: 100% 100%; /* Stretch the background image to fill the container */
+  background-attachment: fixed; /* Keeps the background fixed while scrolling */
+  height: 100vh; /* Full viewport height */
+  width: 100%;
+  font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -367,10 +368,13 @@ button {
   margin: 0;
   padding-bottom: 50px;
 }
+
 .countdown {
   display: flex;
   transform: scale(2);
+  padding-bottom: 0;
 }
+
 .time {
   display: flex;
   flex-direction: column;
@@ -378,22 +382,27 @@ button {
   justify-content: center;
   margin: 15px;
 }
+
 .time h2 {
   font-weight: bold;
   font-size: 36px;
   line-height: 1;
   margin: 0 0 5px;
 }
+
 @media(max-width: 500px) {
   h1 {
     font-size: 45px;
   }
+
   .time {
     margin: 5px;
   }
-  .time h2{
+
+  .time h2 {
     font-size: 12px;
   }
+
   .time small {
     font-size: 10px;
   }
@@ -404,4 +413,3 @@ button {
   width: 100%;
   background-color: #fffefe;
 }
-
