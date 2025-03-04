@@ -14,6 +14,7 @@ body {
   align-items: center;
   min-height: 100vh;
   font-family: 'Poppins', sans-serif; /* Apply the Poppins font family */
+  background-color: #cea187;
 }
 
 .background-image {
@@ -291,10 +292,32 @@ button {
   margin-top: 10px;
 }
 
+@media (max-width:600px) {
+  body {
+    width: 100%;
+    font-size: larger;
+  }
+}
+@media (max-width:400px) {
+  body {
+    width: 100%;
+    font-size: larger;
+  }
+  .line {
+    width: 100px;
+  }
+}
+
 /* Responsive Design */
-@media (max-width: 768px) {
+@media (max-width: 768px) and (max-width:500px) {
   .heading-below-address {
       font-size: 1.8rem;
+  }
+  .line {
+    width: 200px;
+  }
+  .background-image {
+    width: 100%;
   }
 
   .heading-address {
@@ -353,11 +376,10 @@ button {
 }
 .section-timer {
   box-sizing: border-box;
-  background-image: url('https://t3.ftcdn.net/jpg/09/82/84/66/360_F_982846663_mU311Y83edrTRlQ5qctEKEoelQXnCfUu.jpg');
-  background-position: center;
   background-size: 100% 100%; /* Stretch the background image to fill the container */
   background-attachment: fixed; /* Keeps the background fixed while scrolling */
-  height: 100vh; /* Full viewport height */
+  height: 400vh; /* Full viewport height */
+  background-color: #6a3516;
   width: 100%;
   font-family: "Poppins", sans-serif;
   display: flex;
@@ -367,6 +389,8 @@ button {
   text-align: center;
   margin: 0;
   padding-bottom: 50px;
+  color: #fff;
+  border-color: 2px solid black;
 }
 
 .countdown {
@@ -380,7 +404,8 @@ button {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  margin: 15px;
+  margin-top: 35px;
+  margin-left: 8px;
 }
 
 .time h2 {
@@ -390,14 +415,13 @@ button {
   margin: 0 0 5px;
 }
 
-@media(max-width: 500px) {
+
+@media(max-width: 600px) {
   h1 {
     font-size: 45px;
   }
 
-  .time {
-    margin: 5px;
-  }
+  
 
   .time h2 {
     font-size: 12px;
