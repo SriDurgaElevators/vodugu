@@ -15,6 +15,7 @@ body {
   min-height: 100vh;
   font-family: 'Poppins', sans-serif; /* Apply the Poppins font family */
   background-color: #cea187;
+  margin-left: 10px;
 }
 
 .background-image {
@@ -99,7 +100,7 @@ button {
 
 .line {
   background-color: #ffffff;
-  width: 320px;
+  width: 50%;
   height: 8px;
   border-radius: 10px;
 }
@@ -299,7 +300,7 @@ button {
     font-size: larger;
   }
   .line {
-    width: 300px;
+    width: 60%;
   }
 }
 @media (max-width:400px) {
@@ -308,7 +309,7 @@ button {
     font-size: larger;
   }
   .line {
-    width: 100px;
+    width: 40%;
   }
 }
 
@@ -318,10 +319,10 @@ button {
       font-size: 1.8rem;
   }
   .line {
-    width: 200px;
+    width: 40%;
   }
   .background-image {
-    width: 100%;
+    width: 115%;
   }
 
   .heading-address {
@@ -341,7 +342,7 @@ button {
   background-position: center;
   background-repeat: no-repeat;
   position: relative; /* Required for the overlay */
-  width: 100%;
+  width: 120%;
   padding-bottom: 180px;
 }
 
@@ -369,7 +370,7 @@ button {
   align-items: center;
 }
 .loca {
-  font-size: 40px;
+  font-size: 45px;
   color: #6a3516;
   
 }
@@ -384,7 +385,7 @@ button {
   background-attachment: fixed; /* Keeps the background fixed while scrolling */
   height: 400vh; /* Full viewport height */
   background-color: #6a3516;
-  width: 100%;
+  width: 122%;
   font-family: "Poppins", sans-serif;
   display: flex;
   flex-direction: column;
