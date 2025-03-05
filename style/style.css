@@ -55,11 +55,12 @@ html, body {
 
 .container {
   border-radius: 10px;
-  padding: 0;
+  padding: 10px;
   text-align: center;
   z-index: 1;
   width: 100%;
 }
+
 
 h1 {
   font-size: 5em;
@@ -156,8 +157,7 @@ button {
   flex-direction: column; /* Stack content vertically */
   align-items: center;
   text-align: center;
-  padding: 50px 20px;
-  margin-top: 10px; /* Reduced margin-top to pull the section upwards */
+  padding-bottom: 40px;
 }
 
 .cards h3 {
@@ -375,13 +375,14 @@ button {
   {
     width: 50%;
     margin: auto;
-    height: 450px;
+    height: 480px;
+    
     
   }
 
   .brideGroomContainer
   {
-    height: 450px;
+    height: 480px;
   }
 
   .section_address_cards
@@ -442,6 +443,7 @@ maps-container
   height: 80vh;
   justify-content: center;
   align-items: center;
+  margin-top: -70px;
 }
 .loca {
   font-size: 3.5em; /* Bigger heading font */
@@ -455,6 +457,7 @@ maps-container
   justify-content: center;
   align-items: center;
   justify-items: center;
+  
 }
 .section-timer {
   box-sizing: border-box;
