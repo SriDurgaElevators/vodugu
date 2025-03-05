@@ -325,7 +325,7 @@ button {
 
 @media (max-width:700px) {
   body {
-    width: 150%;
+    width: 120%;
     font-size: larger;
   }
   .line {
