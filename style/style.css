@@ -11,12 +11,10 @@ html {
 body {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
-  min-height: 100vh;
   font-family: 'Poppins', sans-serif; /* Apply the Poppins font family */
   background-color: #cea187;
-  margin-left: 10px;
+  
   
 }
 html, body {
@@ -216,7 +214,7 @@ button {
   background-color: rgb(65, 34, 34);
 }
 .cardsContainer {
-  background-color: rgb(255, 255, 255);
+  
     width: 400px;
     height:700px;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 8px 0px, rgba(0, 0, 0, 0.19) 0px 6px 20px 0px;
@@ -325,7 +323,7 @@ button {
 
 @media (max-width:700px) {
   body {
-    width: 120%;
+    width: 150%;
     font-size: larger;
   }
   .line {
@@ -343,7 +341,7 @@ button {
 }
 
 /* Responsive Design */
-@media (max-width: 768px) and (max-width:500px) {
+@media (max-width: 768px){
   .heading-below-address {
       font-size: 1.8rem;
   }
@@ -361,6 +359,44 @@ button {
   .address-cards {
       width: 100%;
       margin: 10px 0;
+  }
+  .cardsBrideGroom img
+  {
+    height: 200px;
+    width: 200px;
+  }
+
+  .cardsContainer
+  {
+    width: 50%;
+    margin: auto;
+    height: 420px;
+    
+  }
+
+  .brideGroomContainer
+  {
+    height: 420px;
+  }
+
+  .section_address_cards
+  {
+    padding: 60px;
+  }
+
+  iframe
+  {
+    width: 90% !important;
+    height: 80vh !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .maps
+  {
+    align-items: center;
+    display: flex;
+    padding-bottom: 40px;
   }
 }
 .section_address {
