@@ -13,7 +13,7 @@ body {
   flex-direction: column;
   align-items: center;
   font-family: 'Poppins', sans-serif; /* Apply the Poppins font family */
-  background-color: #cea187;
+  background-color: white;
   
   
 }
@@ -176,13 +176,18 @@ button {
 }
 
 .text {
-  font-size: 1.2em;
-  color: #444;
+  font-size: 1.1rem;
+  color: #555; 
   line-height: 1.5;
   margin-bottom: 10px;
   font-family: 'Noto Sans Telugu', sans-serif; /* Apply Noto Sans Telugu font */
 }
 
+.groomname {
+  font-size: 1.6rem;
+  font-weight: bold; /* Bold for name */
+  color: #2d3d44; /* Darker color for the name */
+}
 
 /* Add more space between sections as needed */
 .heading {
@@ -370,13 +375,13 @@ button {
   {
     width: 50%;
     margin: auto;
-    height: 420px;
+    height: 450px;
     
   }
 
   .brideGroomContainer
   {
-    height: 420px;
+    height: 450px;
   }
 
   .section_address_cards
@@ -387,7 +392,7 @@ button {
   iframe
   {
     width: 90% !important;
-    height: 80vh !important;
+    height: 50vh !important;
     justify-content: center;
     align-items: center;
   }
@@ -439,8 +444,11 @@ maps-container
   align-items: center;
 }
 .loca {
-  font-size: 45px;
-  color: #6a3516;
+  font-size: 3.5em; /* Bigger heading font */
+  color: #3a3a3a; /* Dark gray color for text */
+  font-family: 'Dancing Script', cursive; /* Use Dancing Script for a stylish look */
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); /* Subtle text shadow for a soft 3D effect */
+  letter-spacing: 2px;
   
 }
 .location {
